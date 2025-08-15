@@ -1,0 +1,16 @@
+{
+  "cleaning": {
+    "lowercase_fields": ["email"],
+    "titlecase_fields": ["Name"],
+    "date_fields": ["invoice_date"]
+  },
+  "validations": {
+    "Client Name": {"required": true},
+    "Email": {"required": true, "regex": "^[\\w\\.-]+@[\\w\\.-]+\\.\\w+$"},
+    "Amount": {"required": true, "type": "number"}
+  },
+  "formatting": {
+    "Invoice Date": "DATE",
+    "Amount": "CURRENCY"
+  }
+}
