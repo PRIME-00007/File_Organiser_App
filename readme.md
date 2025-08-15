@@ -1,10 +1,6 @@
----
+# File Organizer – Python + PyQt5 Desktop App
 
-## **📄 README for File Organiser App**
-```markdown
-# File Organiser – Python + PyQt5 Desktop App
-
-**File Organiser** is a Python + PyQt5 desktop application that automatically sorts files into folders by type, date, or custom rules.  
+**File Organizer** is a Python + PyQt5 desktop application that automatically sorts files into folders by type, date, or custom rules.  
 Includes batch renaming, duplicate detection, and scheduled runs to keep your workspace clutter-free.
 
 ---
@@ -19,8 +15,18 @@ Includes batch renaming, duplicate detection, and scheduled runs to keep your wo
 ---
 
 ## 🖼️ Screenshots
-[Alt Text](images/file_organizer.png)
-[Alt Text](images/file_organizer2.png)*
+
+![Main Window](images/file_organizer.png)  
+*Main app interface showing folder selection and sorting options.*
+
+![Settings Panel](images/file_organizer2.png)  
+*Settings panel where you can customize sorting rules and schedule runs.*
+
+![Batch Rename](images/file_organizer4.png)  
+*Batch rename feature for quickly renaming multiple files.*
+
+![Duplicate Finder](images/file_organizer3.png)  
+*Duplicate file detection in action.*
 
 ---
 
@@ -31,8 +37,13 @@ pip install PyQt5
 bash
 Copy
 Edit
-python file_organiser.py
-Select a folder, choose sorting options, and click Organize.
+python file_organizer.py
+Select a folder to organize.
+
+Choose sorting options (type, date, custom rules).
+
+Click Organize.
+
 Optionally enable scheduled runs for hands-free organization.
 
 💡 Use Cases
