@@ -16,16 +16,16 @@ Includes batch renaming, duplicate detection, and scheduled runs to keep your wo
 
 ## 🖼️ Screenshots
 
-![Main Window](images/file_organizer.png)  
+![Main Window](images/file_organiser.png)  
 *Main app interface showing folder selection and sorting options.*
 
-![Settings Panel](images/file_organizer2.png)  
+![Settings Panel](images/file_organiser2.png)  
 *Settings panel where you can customize sorting rules and schedule runs.*
 
-![Batch Rename](images/file_organizer4.png)  
+![Batch Rename](images/file_organiser4.png)  
 *Batch rename feature for quickly renaming multiple files.*
 
-![Duplicate Finder](images/file_organizer3.png)  
+![Duplicate Finder](images/file_organiser3.png)  
 *Duplicate file detection in action.*
 
 ---
